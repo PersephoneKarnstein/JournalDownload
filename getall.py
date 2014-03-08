@@ -66,7 +66,8 @@ def get_all(volstart='newest', volstop='oldest', downloadall='True'):
 				soupp = BeautifulSoup(str(foo))
 				volnum = soupp.a['name']
 				volnum = re.sub("\D", "", volnum)
-				volumes.append(int(volnum))
+				try: volumes.append(int(volnum))
+				except ValueError: volumes.append(volnum)
 			except KeyError: pass
 		else: pass
 
@@ -88,13 +89,17 @@ def get_all(volstart='newest', volstop='oldest', downloadall='True'):
 	else: getvols = volumes
 
 	rofls = []
+	weirds = []
 
 	for roflcopter in soup.find_all(class_="content"): #need to open the right link - it's harder than it looks
 		rofl2 = roflcopter.find(class_="volume issueStyleCategory")
 		if rofl2 is not None:
 			rofl3 = rofl2.get('href')
 			rofl3 = rofl3.split("?open=")
+			weirdo = rofl3[1].split("&repitition=")
+			weirdo = weirdo[1].split('#vol')
 			rofls.append(rofl3[0])
+			weirds.append(weirdo[0])
 		else: pass
 
 	if len(rofls) > 2:
@@ -105,9 +110,9 @@ def get_all(volstart='newest', volstop='oldest', downloadall='True'):
 
 
 	for vol in volumes:
-		volurl = "http://www.tandfonline.com" + str(therofl) + "?open="+str(vol)+"&repitition=0#vol_"+str(vol)
+		volurl = "http://www.tandfonline.com" + str(therofl) + "?open=" + str(vol) + "&repitition=" + str(weirds[volumes.index(vol)]) + "#vol_" + str(vol)
 		r = requests.get(volurl)
-		soup = BeautifulSoup(r.text)
+		sloup = BeautifulSoup(r.text)
 
 		print("\multicolumn{2}{l}{\\textbf {\Large Volume " + str(vol) + "}}& \\\ ")
 		print("\hline \\\ ")
@@ -116,7 +121,7 @@ def get_all(volstart='newest', volstop='oldest', downloadall='True'):
 		issuelist = []
 		issuenum = []
 
-		for icon in soup.find_all(class_="accessIcon"):
+		for icon in sloup.find_all(class_="accessIcon"):
 			soupp = BeautifulSoup(str(icon.img))
 			tag = soupp.img
 			if tag is not None:
@@ -128,10 +133,14 @@ def get_all(volstart='newest', volstop='oldest', downloadall='True'):
 					print("%I don't see access")
 			else: pass
 
-		for link in soup.find_all(class_="issueInfo"):
+
+		for link in sloup.find_all(class_="issueInfo"):
 		    issuelist.append("http://www.tandfonline.com"+link.a.get('href'))
 		    issuenum.append(link.a.get_text())
 		
+		if len(accesslist)>len(issuelist):
+			accesslist = accesslist[-len(issuelist):] #sometimes there's a random one hanging out at the top which used to trip it up
+
 		for issue in np.arange(len(issuelist)):
 			if accesslist[int(issue)] == True:
 				issueurl = issuelist[issue]
@@ -193,7 +202,7 @@ def get_all(volstart='newest', volstop='oldest', downloadall='True'):
 				#preserves the null author for the editorial board when such exists
 
 				if bool(downloadall) == True:
-					if vol in getvols:
+					if vol in getvols: ###I want it to still write a table of contents for all volumes if I start in a weird place, just not download them. But it's not.. T_T
 						for elem in np.arange(len(names)):
 							try: print( "&{\\normalsize{" + names[int(elem)] + "}} & {" + authors[int(elem)][1] + "}\\\ ")
 							except IndexError: print( "&{\\normalsize{" + names[int(elem)] + "}} & { - }\\\ ")
@@ -271,7 +280,7 @@ def get_all(volstart='newest', volstop='oldest', downloadall='True'):
 						for remd in pdfnames: os.remove(remd)
 					else:
 						for elem in np.arange(len(names)):
-							print("%not downloading volume", vol)
+							print "%not downloading volume", vol
 							try: print( "&{\\normalsize{" + names[int(elem)] + "}} & {" + authors[int(elem)][1] + "}\\\ ")
 							except IndexError: print( "&{\\normalsize{" + names[int(elem)] + "}} & { - }\\\ ")
 							print( "&{\small {\it " + authors[int(elem)][0] + "}} & \\\ \\\ ")
