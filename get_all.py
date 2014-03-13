@@ -21,8 +21,6 @@ else:
 	journaltitle = journaltitlefull
 	journalsubtitle = ""
 
-volumes = []
-
 print("""
 \documentclass{article}
 
@@ -57,8 +55,12 @@ print("""
 
 """)
 
-for aut in soup.find_all(class_="content"): #gets numbers of listed volumes
-	foo = aut.a
+volumes = []
+rofls = []
+weirds = []
+
+for roflcopter in soup.find_all(class_="content"): #gets numbers of listed volumes
+	foo = roflcopter.a
 	if foo is not None:
 		try:
 			soupp = BeautifulSoup(str(foo))
@@ -69,10 +71,6 @@ for aut in soup.find_all(class_="content"): #gets numbers of listed volumes
 		except KeyError: pass
 	else: pass
 
-rofls = []
-weirds = []
-
-for roflcopter in soup.find_all(class_="content"): #need to open the right link - it's harder than it looks
 	rofl2 = roflcopter.find(class_="volume issueStyleCategory")
 	if rofl2 is not None:
 		rofl3 = rofl2.get('href')
@@ -101,27 +99,50 @@ for vol in volumes:
 	accesslist = []
 	issuelist = []
 	issuenum = []
+	issuetitles = []
 
-	for icon in sloup.find_all(class_="accessIcon"):
-		# print icon
-		# print ""
-		soupp = BeautifulSoup(str(icon.img))
-		tag = soupp.img
-		if tag is not None:
-			access = tag['title'] #checks whether or not I have access to each issue
-			if access == "Full Access":
-				accesslist.append(True)
-			else: 
-				accesslist.append(False)
-				print("%I don't see access")
+	for volvol in sloup.find_all(class_="volumeIssueList"):
+		numiss = []
+		for iss in volvol.find_all(class_="indent floatContainer"):
+			numiss.append(iss)
+		
+		if len(numiss) != 0:
+			for icon in numiss:
+				
+				access = icon.find(class_="accessIcon")
+				ssoupp = BeautifulSoup(str(access.img))
+				tag = ssoupp.img
+				# print ssoupp
+				# print tag
+				# print ""
+				accesspr = tag['title'] #checks whether or not I have access to each issue
+				if accesspr == "Full Access":
+					accesslist.append(True)
+				else: 
+					accesslist.append(False)
+					print("%I don't see access")
+				
+				try:
+					link = icon.find(class_="issueInfo")
+					issuelist.append("http://www.tandfonline.com"+link.a.get('href'))
+					issuenum.append(link.a.get_text())
+				except AttributeError: pass
+				
+				try:
+					title = icon.find(class_="issueTitle").get_text().strip()
+					if title is not None:
+						issuetitles.append(title)
+				except AttributeError: issuetitles.append("")
 		else: pass
 
-	for link in sloup.find_all(class_="issueInfo"):
-	    issuelist.append("http://www.tandfonline.com"+link.a.get('href'))
-	    issuenum.append(link.a.get_text())
-	
+	# print accesslist, issuelist
+
+			
 	if len(accesslist)>len(issuelist):
-		accesslist = accesslist[-len(issuelist):]
+		accesslist = accesslist[-len(issuelist):] #sometimes there's a random one hanging out at the top which used to trip it up
+
+	if len(issuetitles)>len(issuelist):
+		issuetitles = issuetitles[-len(issuelist):]
 
 	for issue in np.arange(len(issuelist)):
 		if accesslist[int(issue)] == True:
@@ -130,7 +151,7 @@ for vol in volumes:
 			souppy = BeautifulSoup(r.text)
 
 			br.open(issuelist[issue])
-			print ("\multicolumn{2}{l}{\\textbf{\large "+issuenum[issue].lstrip()+"}}& \\\ ")
+			print ("\multicolumn{2}{l}{\\textbf{\large "+issuenum[issue].lstrip()+": "+issuetitles[issue]+"}}& \\\ ")
 
 			links = []
 			names = []
@@ -184,65 +205,71 @@ for vol in volumes:
 			#preserves the null author for the editorial board when such exists
 
 
-			for elem in np.arange(len(names)):
-				try: print( "&{\\normalsize{" + names[int(elem)] + "}} & {" + authors[int(elem)][1] + "}\\\ ")
-				except IndexError: print( "&{\\normalsize{" + names[int(elem)] + "}} & { - }\\\ ")
-				print( "&{\small {\it " + authors[int(elem)][0] + "}} & \\\ \\\ ")
-				print("")
-				
-				data = br.open(links[int(elem)]).get_data()
-				articleid = "vol"+str(vol).zfill(3)+'-issue'+re.sub("\D", "", str(issuenum[issue]).lstrip()).zfill(2)+'-'+str(elem).zfill(2)+".pdf"
+			if len(names) != 0:
+				for elem in np.arange(len(names)):
+					try: print( "&{\\normalsize{" + names[int(elem)] + "}} & {" + authors[int(elem)][1] + "}\\\ ")
+					except IndexError: print( "&{\\normalsize{" + names[int(elem)] + "}} & { - }\\\ ")
+					try: print( "&{\small {\it " + authors[int(elem)][0] + "}} & \\\ \\\ ")
+					except IndexError: print( "&{\small {\it " + "}} & \\\ \\\ ")
+					print("")
+					
+					try:
+						data = br.open(links[int(elem)]).get_data()
+						articleid = "vol"+str(vol).zfill(3)+'-issue'+re.sub("\D", "", str(issuenum[issue]).lstrip()).zfill(2)+'-'+str(elem).zfill(2)+".pdf"
 
-				f = open(articleid,'wb')
-				f.write(data)
-				f.close()
+						f = open(articleid,'wb')
+						f.write(data)
+						f.close()
 
-				#Now hand it off to a shit module that can kinda edit pdfs
-				output_file = PdfFileWriter()
-				input_file = PdfFileReader(open(articleid, 'rb'))
-				num_pages = input_file.getNumPages()
+						#Now hand it off to a shit module that can kinda edit pdfs
+						output_file = PdfFileWriter()
+						input_file = PdfFileReader(open(articleid, 'rb'))
+						num_pages = input_file.getNumPages()
 
-				if len(pdfnames) != 0: 
-					previnput = PdfFileReader(open(pdfnames[-1], 'rb'))
-					prevnum = int(previnput.getNumPages())
-					prevlast = (previnput.getPage(prevnum-1)).extractText()
-				else: prevlast = ""
+						if len(pdfnames) != 0: 
+							previnput = PdfFileReader(open(pdfnames[-1], 'rb'))
+							prevnum = int(previnput.getNumPages())
+							prevlast = (previnput.getPage(prevnum-1)).extractText()
+						else: prevlast = ""
 
-				curfirst = (input_file.getPage(1)).extractText()
-				curfirst = "".join(curfirst.split())
-				
-				francisclaim = """Conditions of accessand use can be found at http://www.tandfonline.com/page/terms-and-conditions"""
-				francisclaim = "".join(francisclaim.split()) #removing possible issues with strangely placed spaces in recovered text
+						curfirst = (input_file.getPage(1)).extractText()
+						curfirst = "".join(curfirst.split())
+						
+						francisclaim = """Conditions of accessand use can be found at http://www.tandfonline.com/page/terms-and-conditions"""
+						francisclaim = "".join(francisclaim.split()) #removing possible issues with strangely placed spaces in recovered text
 
-				if francisclaim not in curfirst:		
-					if (curfirst != prevlast): #i.e., all is as it should be
-						for i in xrange(1, num_pages):					
-							output_file.addPage(input_file.getPage(i)) #this is dumb why isn't this built into the module
-					else:
-						for i in xrange(2, num_pages): #not disclaimer pt 2 but a copy of the last page of previous			
-							output_file.addPage(input_file.getPage(i))
-				else:
-					if (curfirst != prevlast): #is disclaimer pt. 2, but not a copy of the last page of prev
-						for i in xrange(2, num_pages):					
-							output_file.addPage(input_file.getPage(i)) 
-					else: #there was a disclaimer pt.2 AND copy of the last page of prev
-						for i in xrange(3, num_pages):					
-								output_file.addPage(input_file.getPage(i)) 
+						if francisclaim not in curfirst:		
+							if (curfirst != prevlast): #i.e., all is as it should be
+								for i in xrange(1, num_pages):					
+									output_file.addPage(input_file.getPage(i)) #this is dumb why isn't this built into the module
+							else:
+								for i in xrange(2, num_pages): #not disclaimer pt 2 but a copy of the last page of previous			
+									output_file.addPage(input_file.getPage(i))
+						else:
+							if (curfirst != prevlast): #is disclaimer pt. 2, but not a copy of the last page of prev
+								for i in xrange(2, num_pages):					
+									output_file.addPage(input_file.getPage(i)) 
+							else: #there was a disclaimer pt.2 AND copy of the last page of prev
+								for i in xrange(3, num_pages):					
+										output_file.addPage(input_file.getPage(i)) 
 
-				os.remove(articleid)
+						os.remove(articleid)
 
-				output_stream = file(articleid,'wb')
-				output_file.write(output_stream)
+						output_stream = file(articleid,'wb')
+						output_file.write(output_stream)
 
-				output_stream.close()
+						output_stream.close()
 
-				pdfnames.append(articleid)
+						pdfnames.append(articleid)
+					except IndexError: pass
 
-			    #FIRST WE MAKES A FILE AND THEN WE SAYS FUCK IT AND OVERWRITES IT WITH ITSELF
-			    #BECAUSE NOBODY THOUGHT DELETING PAGES IN A SIMPLER WAY WOULD BE USEFUL
+			else: pass
 
-				#print('<<<' + names[int(elem)] + ' has been downloaded.>>>')
-				#print "" #downloads each article in an issue #we have our article pdfs by the end of this
+				    #FIRST WE MAKES A FILE AND THEN WE SAYS FUCK IT AND OVERWRITES IT WITH ITSELF
+				    #BECAUSE NOBODY THOUGHT DELETING PAGES IN A SIMPLER WAY WOULD BE USEFUL
+
+					#print('<<<' + names[int(elem)] + ' has been downloaded.>>>')
+					#print "" #downloads each article in an issue #we have our article pdfs by the end of this
 
 
 			issuename = "vol"+str(vol).zfill(3)+'-issue'+re.sub("\D", "", str(issuenum[issue]).lstrip()).zfill(2)+".pdf"
