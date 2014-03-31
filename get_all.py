@@ -151,7 +151,9 @@ for vol in volumes:
 			souppy = BeautifulSoup(r.text)
 
 			br.open(issuelist[issue])
-			print ("\multicolumn{2}{l}{\\textbf{\large "+issuenum[issue].lstrip()+": "+issuetitles[issue]+"}}& \\\ ")
+			print ("\multicolumn{2}{l}{\\textbf{\large "+issuenum[issue].lstrip()+ "}}& \\\ ")
+			if issuetitles[issue] is not "": print ("\multicolumn{3}{l}{\\textbf{\large "+issuetitles[issue]+ "}} \\\ ")
+			else: pass
 
 			links = []
 			names = []
