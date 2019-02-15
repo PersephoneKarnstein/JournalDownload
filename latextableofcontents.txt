@@ -1,0 +1,1072 @@
+
+	\documentclass{article} 
+
+
+	\usepackage[english]{babel} 
+
+	\usepackage{amsmath} 
+
+	\usepackage{lmodern} 
+
+	\usepackage{graphicx} 
+
+	\usepackage{tabu} 
+
+	\usepackage{longtable} 
+
+	\usepackage[margin=1in]{geometry} 
+
+	
+
+	\newcommand*{\titleTH}{\begingroup  
+
+	\raggedleft 
+
+	\vspace*{\baselineskip} 
+
+	
+
+	{\Large Table of Contents}\\[0.167\textheight] 
+
+	
+
+	{\Huge Mediterranean Historical Review 
+     }\\[\baselineskip] 
+
+	
+
+	{\Large \textit{}}\par 
+
+	
+
+	\vspace*{3\baselineskip} 
+
+	\endgroup} 
+
+	
+
+	
+
+	\begin{document} 
+
+	
+
+	\titleTH 
+
+	
+
+	
+
+	\begin{center} 
+
+	\begin{longtabu} to \textwidth {X[0.25,c]X[4,l]X[.5,r]} 
+
+
+	\multicolumn{2}{l}{\textbf {\Large Volume 28}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Coinage as commodity and bullion in the western Mediterranean, ca. 550–100 BCE}} & {105-127}\\ 
+&{\small {\it Clare Rowan}} & \\ \\ 
+
+&{\normalsize{The Mongol invasions and the Aegean world (1241–61)}} & {129-139}\\ 
+&{\small {\it John Giebfried}} & \\ \\ 
+
+&{\normalsize{Mallorcan merchants in the medieval Maghrib: mercantile strategies in the port of Hunayn in the mid-fourteenth century}} & {141-165}\\ 
+&{\small {\it María Dolores López Pérez \& José Ignacio Padilla Lapuente}} & \\ \\ 
+
+&{\normalsize{The Grão-Turco and the Jews: translation to the West of two Oriental ‘powers’ (XVI–XVII centuries)}} & {167-190}\\ 
+&{\small {\it José Alberto Rodrigues da Silva Tavim}} & \\ \\ 
+
+&{\normalsize{Giovanni di Niccolò Pappaffy: identities and philanthropies of an Ottoman Greek broker in Malta}} & {191-224}\\ 
+&{\small {\it Ariadni Moutafidou}} & \\ \\ 
+
+&{\normalsize{How to defeat the Saracens. Guillelmus Ade, Tractatus quomodo Sarraceni sunt expugnandi}} & {225-228}\\ 
+&{\small {\it Stefan Stantchev}} & \\ \\ 
+
+&{\normalsize{A kingdom of stargazers: astrology and authority in the late medieval Crown of Aragon}} & {228-230}\\ 
+&{\small {\it Shlomo Sela}} & \\ \\ 
+
+&{\normalsize{Trading conflicts: Venetian merchants and Mamluk officials in late medieval Alexandria}} & {230-232}\\ 
+&{\small {\it Claire Judde de Larivière}} & \\ \\ 
+
+&{\normalsize{Mamluks and animals: veterinary medicine in medieval Islam}} & {232-234}\\ 
+&{\small {\it Sonja Brentjes}} & \\ \\ 
+
+&{\normalsize{‘Salariato’ della nave Girarda-San Nicolò per il viaggio da Venezia alla Sardegna (1594–1595)}} & {234-237}\\ 
+&{\small {\it Renard Gluzman}} & \\ \\ 
+
+&{\normalsize{Captives and corsairs: France and slavery in the early modern Mediterranean}} & {237-240}\\ 
+&{\small {\it Oded Rabinovitch}} & \\ \\ 
+
+&{\normalsize{The rise of the Ottoman Empire: studies in the history of Turkey, thirteenth–fifteenth centuries}} & {240-242}\\ 
+&{\small {\it Dimitris J. Kastritsis}} & \\ \\ 
+
+&{\normalsize{Conquête ottomane de l'Égypte (1517): arrière-plan, impact, échos}} & {243-245}\\ 
+&{\small {\it Jane Hathaway}} & \\ \\ 
+
+&{\normalsize{The Turk and Islam in the Western eye, 1450–1750: visual imagery before Orientalism}} & {245-248}\\ 
+&{\small {\it David S. Katz}} & \\ \\ 
+
+&{\normalsize{Catalogue du fonds ottoman des archives du monastère de Saint Jean à Patmos. Les vingt-deux premiers dossiers}} & {249-251}\\ 
+&{\small {\it John C. Alexander (Alexandropoulos)}} & \\ \\ 
+
+&{\normalsize{Documents concerning Cyprus from the Hospital's Rhodian Archives 1409–1459}} & {251-252}\\ 
+&{\small {\it Michel Balard}} & \\ \\ 
+
+&{\normalsize{Les Conversions à l'Islam en Asie Mineure et dans les Balkans aux époques Seldjoukide et Ottomane: bibliographie raisonée (1800–2000)}} & {252-254}\\ 
+&{\small {\it Nikolay Antov}} & \\ \\ 
+
+&{\normalsize{Publications Received}} & {255-256}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial Board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Faith, law and empire in the Ottoman ‘age of confessionalization’ (fifteenth–seventeenth centuries): the case of ‘renewal of faith’}} & {1-23}\\ 
+&{\small {\it Guy Burak}} & \\ \\ 
+
+&{\normalsize{The Enlightenment in translation: Antonio Genovesi's political economy in Spain, 1778–1800†}} & {24-45}\\ 
+&{\small {\it Jesús Astigarraga \& Javier Usoz}} & \\ \\ 
+
+&{\normalsize{Russian consuls and the Greek war of independence (1821–31)}} & {46-65}\\ 
+&{\small {\it Lucien J. Frary}} & \\ \\ 
+
+&{\normalsize{Braudel revisited: the Mediterranean world, 1600–1800}} & {66-70}\\ 
+&{\small {\it Colin Heywood}} & \\ \\ 
+
+&{\normalsize{The collapse of the Eastern Mediterranean: climate change and the decline of the East, 950–1072}} & {70-72}\\ 
+&{\small {\it Sam White}} & \\ \\ 
+
+&{\normalsize{Mediterraneans: North Africa and Europe in an age of migration, c. 1800–1900}} & {72-75}\\ 
+&{\small {\it Cyrus Schayegh}} & \\ \\ 
+
+&{\normalsize{Clisthène et Lycurgue d'Athènes: autour du politique dans la cité classique}} & {76-78}\\ 
+&{\small {\it P.J. Rhodes}} & \\ \\ 
+
+&{\normalsize{Merchants, princes and painters: silk fabrics in Italian and northern paintings, 1300-1550}} & {78-80}\\ 
+&{\small {\it David Jacoby}} & \\ \\ 
+
+&{\normalsize{Nuns and nunneries in Renaissance Florence}} & {80-82}\\ 
+&{\small {\it Moshe Sluhovsky}} & \\ \\ 
+
+&{\normalsize{Contested conversions to Islam: narratives of religious change in the early modern Ottoman Empire}} & {82-86}\\ 
+&{\small {\it Felicita Tramontana}} & \\ \\ 
+
+&{\normalsize{Forgotten saints: history, power, and politics in the making of modern Morocco}} & {86-89}\\ 
+&{\small {\it Bruce Maddy-Weitzman}} & \\ \\ 
+
+&{\normalsize{Gatekeepers of the Arab past: historians and history writing in twentieth-century Egypt}} & {89-92}\\ 
+&{\small {\it Ursula Wokoeck}} & \\ \\ 
+
+&{\normalsize{Community and identity: the making of modern Gibraltar since 1704}} & {92-96}\\ 
+&{\small {\it Julio Ponce}} & \\ \\ 
+
+&{\normalsize{The history and politics of the Cyprus conflict}} & {96-98}\\ 
+&{\small {\it Andreas Theophanous}} & \\ \\ 
+
+&{\normalsize{Iron in the soul: displacement, livelihood and health in Cyprus}} & {98-100}\\ 
+&{\small {\it Andreas Theophanous}} & \\ \\ 
+
+&{\normalsize{Resolving the Cyprus Conflict: Negotiating History}} & {101-103}\\ 
+&{\small {\it Andreas Theophanous}} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 27}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large Special Issue: Minorities in Colonial Settings: The Jews in Venice's Hellenic Territories (15th-18th Centuries)}}} & \\ \\ 
+&{\normalsize{Introduction}} & {117-128}\\ 
+&{\small {\it Benjamin Arbel}} & \\ \\ 
+
+&{\normalsize{Cretan Jews and the First Sephardic Encounter in the fifteenth century}} & {129-140}\\ 
+&{\small {\it Rena Lauer}} & \\ \\ 
+
+&{\normalsize{The Jews in early modern Venetian Crete: community and identities}} & {141-150}\\ 
+&{\small {\it Anastasia Papadia-Lala}} & \\ \\ 
+
+&{\normalsize{On the sources of Elijah Capsali's Chronicle of the ‘Kings’ of Venice}} & {151-160}\\ 
+&{\small {\it Giacomo Corazzol}} & \\ \\ 
+
+&{\normalsize{Making illuminated Haggadot in Venetian Candia}} & {161-173}\\ 
+&{\small {\it Ilona Steimann}} & \\ \\ 
+
+&{\normalsize{Jewish settlement in Corfu in the aftermath of the expulsions from Spain and southern Italy, 1492–1541}} & {175-188}\\ 
+&{\small {\it Nadia Zeldes}} & \\ \\ 
+
+&{\normalsize{Jews in Corfu's economy (from the late fifteenth to mid-sixteenth century)}} & {189-198}\\ 
+&{\small {\it Gerassimos Pagratis}} & \\ \\ 
+
+&{\normalsize{The Jews of Zante between the Serenissima and the Sublime Porte: the local community and the Jewish consuls (sixteenth to seventeenth centuries)}} & {199-213}\\ 
+&{\small {\it Marianna Kolyvà}} & \\ \\ 
+
+&{\normalsize{The Jews in Modon and Coron during the second half of the fifteenth century}} & {215-225}\\ 
+&{\small {\it Andrea Nanetti}} & \\ \\ 
+
+&{\normalsize{Venetian pragmatism and Jewish subjects (fifteenth and sixteenth centuries)}} & {227-240}\\ 
+&{\small {\it Photis Baroutsos}} & \\ \\ 
+
+&{\normalsize{What happened to Famagusta's Jews following the Ottoman Conquest of 1571?}} & {241-249}\\ 
+&{\small {\it Benjamin Arbel}} & \\ \\ 
+
+&{\normalsize{Publications Received}} & {251-252}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial Board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Water and identity in the ancient Mediterranean}} & {1-3}\\ 
+&{\small {\it Paola Ceccarelli}} & \\ \\ 
+
+&{\normalsize{The Achaemenid empire and the sea}} & {5-24}\\ 
+&{\small {\it Johannes Haubold}} & \\ \\ 
+
+&{\normalsize{Naming the Aegean Sea}} & {25-49}\\ 
+&{\small {\it Paola Ceccarelli}} & \\ \\ 
+
+&{\normalsize{Identity and resistance: The Islanders' League, the Aegean islands and the Hellenistic kings}} & {51-72}\\ 
+&{\small {\it Christy Constantakopoulou}} & \\ \\ 
+
+&{\normalsize{Greek colonization: small and large islands}} & {73-85}\\ 
+&{\small {\it Mario Lombardo}} & \\ \\ 
+
+&{\normalsize{Rivers, land organization, and identity in Greek Western Apoikíai}} & {87-115}\\ 
+&{\small {\it Flavia Frisone}} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 26}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Professional characteristics of the Jewish guild in the Muslim world: Thessaloniki dockers at the end of the Ottoman era}} & {115-133}\\ 
+&{\small {\it Shai Srougo}} & \\ \\ 
+
+&{\normalsize{Muslim exodus and land redistribution in Autonomous Crete (1898–1913)}} & {135-150}\\ 
+&{\small {\it Manos Perakis}} & \\ \\ 
+
+&{\normalsize{City-ports in the Eastern and Central Mediterranean from the mid-sixteenth to the nineteenth century: urban and social aspects}} & {151-170}\\ 
+&{\small {\it Olga Katsiardi-Hering}} & \\ \\ 
+
+&{\normalsize{On reading Goitein's A Mediterranean Society: a view from economic history}} & {171-186}\\ 
+&{\small {\it Jessica L. Goldberg}} & \\ \\ 
+
+&{\normalsize{Forces of transformation: the end of the Bronze Age in the Mediterranean. Proceedings of an international symposium held at St John's College, University of Oxford 25-26 March 2006}} & {187-190}\\ 
+&{\small {\it Assaf Yasur-Landau}} & \\ \\ 
+
+&{\normalsize{The dance of the islands: insularity, networks, the Athenian empire, and the Aegean world}} & {190-195}\\ 
+&{\small {\it Sylvie Honigman}} & \\ \\ 
+
+&{\normalsize{Hispania and the Roman Mediterranean AD 100-700: ceramics and trade}} & {195-197}\\ 
+&{\small {\it César Carreras}} & \\ \\ 
+
+&{\normalsize{Les Grecs de l'Italie méridionale post-byzantine: une acculturation en douceur}} & {197-200}\\ 
+&{\small {\it Augusta   Acconcia Longo}} & \\ \\ 
+
+&{\normalsize{Carlo I d'Angiò e il Mediterraneo: politica, diplomazia e commercio internazionale prima dei Vespri}} & {200-202}\\ 
+&{\small {\it Michel Balard}} & \\ \\ 
+
+&{\normalsize{Enemies and familiars: slavery and mastery in fifteenth-century Valencia}} & {202-206}\\ 
+&{\small {\it Salvatore Bono}} & \\ \\ 
+
+&{\normalsize{Ottoman Cyprus: a collection of studies on history and culture}} & {206-208}\\ 
+&{\small {\it Amy Singer}} & \\ \\ 
+
+&{\normalsize{British imperialism in Cyprus, 1878-1915: the inconsequential possession}} & {208-210}\\ 
+&{\small {\it Paschalis M. Kitromilides}} & \\ \\ 
+
+&{\normalsize{Réforme de l'État et réformismes au Maghreb (XIXe-XXe siècles)}} & {210-218}\\ 
+&{\small {\it Samir Ben-Layashi}} & \\ \\ 
+
+&{\normalsize{Eleftherios Venizelos: the trials of statesmanship}} & {218-221}\\ 
+&{\small {\it Ekavi Athanassopoulou}} & \\ \\ 
+
+&{\normalsize{Un altro Mediterraneo: una storia commune fra scontri e integración}} & {221-224}\\ 
+&{\small {\it Antony Molho}} & \\ \\ 
+
+&{\normalsize{Publications Received}} & {225-227}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial Board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large Special Issue: Mediterranean Reflections: Studies in Honour of David Abulafia (Part II)}}} & \\ \\ 
+&{\normalsize{Rhetoric and ideology in the Book of Ramon Muntaner}} & {1-29}\\ 
+&{\small {\it Joan-Pau Rubiés}} & \\ \\ 
+
+&{\normalsize{Royal justice in the Aragonese kingdom of Naples: theory and the realities of power}} & {31-50}\\ 
+&{\small {\it Eleni Sakellariou}} & \\ \\ 
+
+&{\normalsize{Hispania and royal humanism in Alfonsine Naples}} & {51-65}\\ 
+&{\small {\it Peter Stacey}} & \\ \\ 
+
+&{\normalsize{Plague and foreign threats to public health in early modern Venice}} & {67-80}\\ 
+&{\small {\it Duane J. Osheim}} & \\ \\ 
+
+&{\normalsize{‘It is not possible to be both a Jew and a Christian’: Converso religious identity and the inquisitorial trial of Custodio Nunes (1604–5)}} & {81-97}\\ 
+&{\small {\it François Soyer}} & \\ \\ 
+
+&{\normalsize{Mastic: a Mediterranean luxury product}} & {99-113}\\ 
+&{\small {\it Paul Freedman}} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 25}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large Special Issue: Mediterranean Reflections: Studies in Honour of David Abulafia (Part I)}}} & \\ \\ 
+&{\normalsize{Introduction}} & {107-111}\\ 
+&{\small {\it Harvey J. Hames}} & \\ \\ 
+
+&{\normalsize{Roger de Hauteville, Emir of Sicily}} & {113-132}\\ 
+&{\small {\it Charles D. Stanton}} & \\ \\ 
+
+&{\normalsize{A Byzantine title in a post-Byzantine world: local aspirations and the theory of translatio imperii in the use of the exarchal title by the archbishops of Ravenna through the Middle Ages}} & {133-146}\\ 
+&{\small {\it Gianluca Raccagni}} & \\ \\ 
+
+&{\normalsize{Two excitationes for the Third Crusade: the letters of brother Thierry of the Temple}} & {147-168}\\ 
+&{\small {\it John H. Pryor}} & \\ \\ 
+
+&{\normalsize{Frederick II's crusade: an example of Christian–Muslim diplomacy}} & {169-185}\\ 
+&{\small {\it Hiroshi Takayama}} & \\ \\ 
+
+&{\normalsize{Going among the infidels: the mendicant orders and Louis IX's first Mediterranean campaign}} & {187-202}\\ 
+&{\small {\it Amanda Power}} & \\ \\ 
+
+&{\normalsize{A Jew amongst Christians and Muslims: introspection in Solomon ibn Adret's response to ibn Hazm}} & {203-219}\\ 
+&{\small {\it Harvey J. Hames}} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Three perspectives on Judah Halevi's voyage to Palestine}} & {1-15}\\ 
+&{\small {\it David J. Malkiel}} & \\ \\ 
+
+&{\normalsize{Benjamin of Tudela, Spanish explorer}} & {17-33}\\ 
+&{\small {\it Zur Shalev}} & \\ \\ 
+
+&{\normalsize{Genoese trade networks in the southern Iberian peninsula: trade, transmission of technical knowledge and economic interactions}} & {35-51}\\ 
+&{\small {\it Alberto García Porras \& Adela Fábregas García}} & \\ \\ 
+
+&{\normalsize{The Ottoman Jews: between distorted realities and legal fictions}} & {53-65}\\ 
+&{\small {\it Gilles Veinstein}} & \\ \\ 
+
+&{\normalsize{Shipping enterprise in the eighteenth century: the case of the Greek subjects of Venice}} & {67-81}\\ 
+&{\small {\it Gerassimos D. Pagratis}} & \\ \\ 
+
+&{\normalsize{Bringing kinship (back) in}} & {83-92}\\ 
+&{\small {\it Gadi Algazi}} & \\ \\ 
+
+&{\normalsize{Pouvoir et finance en Méditerranée pré-moderne: le deuxième État mamelouk et le commerce des épices (1382–1517)}} & {93-96}\\ 
+&{\small {\it Albrecht Fuess}} & \\ \\ 
+
+&{\normalsize{O   ό    ;   ;    ό   ;   ;    ;    ;   (13  -18   .).    ;   ;   [The civic communities in the Venetian-ruled Greek lands (13th-18th centuries): a synthetic approach]}} & {96-102}\\ 
+&{\small {\it Angeliki Panopoulou}} & \\ \\ 
+
+&{\normalsize{A Discourse on the Island of Cyprus}} & {103-105}\\ 
+&{\small {\it Benjamin Arbel}} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 24}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large Special Issue: The late Ottoman port-cities and their inhabitants: subjectivity, urbanity, and conflicting orders}}} & \\ \\ 
+&{\normalsize{The late Ottoman port-cities and their inhabitants: subjectivity, urbanity, and conflicting ordersIn memory of Faruk Tabak (1953–2008)}} & {71-78}\\ 
+&{\small {\it Malte Fuhrmann \& Vangelis Kechriotis}} & \\ \\ 
+
+&{\normalsize{Imperial rivalry and port-cities: a view from above}} & {79-94}\\ 
+&{\small {\it Faruk Tabak}} & \\ \\ 
+
+&{\normalsize{Class and cosmopolitanism: the historiographical fortunes of merchants in Eastern Mediterranean ports}} & {95-114}\\ 
+&{\small {\it Athanasios (Sakis) Gekas}} & \\ \\ 
+
+&{\normalsize{Banking in Izmir in the early twentieth century}} & {115-132}\\ 
+&{\small {\it Elena Frangakis-Syrett}} & \\ \\ 
+
+&{\normalsize{The port-city in the fields: investigating an improper urbanity in mid-nineteenth-century Cyprus}} & {133-149}\\ 
+&{\small {\it Marc Aymes}} & \\ \\ 
+
+&{\normalsize{Greek Orthodox immigrants and modes of integration within the urban society of Istanbul (1850–1923)}} & {151-167}\\ 
+&{\small {\it Méropi Anastassiadou}} & \\ \\ 
+
+&{\normalsize{Down and out on the quays of İzmir: ‘European’ musicians, innkeepers, and prostitutes in the Ottoman port-cities}} & {169-185}\\ 
+&{\small {\it Malte Fuhrmann}} & \\ \\ 
+
+&{\normalsize{Scraping the surface: the techno-politics of modern streets in turn-of-twentieth-century Alexandria}} & {187-205}\\ 
+&{\small {\it On Barak}} & \\ \\ 
+
+&{\normalsize{Protecting the city's interest: the Greek Orthodox and the conflict between municipal and vilayet authorities in İzmir (Smyrna) in the Second Constitutional Period}} & {207-221}\\ 
+&{\small {\it Vangelis Kechriotis}} & \\ \\ 
+
+&{\normalsize{The undesirables of Smyrna, 1926}} & {223-227}\\ 
+&{\small {\it Edhem Eldem}} & \\ \\ 
+
+&{\normalsize{Publications received}} & {229-230}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{The poverty of the Patriarchate of Grado and the Byzantine–Venetian Treaty of 1082}} & {1-16}\\ 
+&{\small {\it John Mark Nicovich}} & \\ \\ 
+
+&{\normalsize{Ibn al-Lihyani: sultan of Tunis and would-be Christian convert (1311–18)}} & {17-27}\\ 
+&{\small {\it Michael Lower}} & \\ \\ 
+
+&{\normalsize{How to influence Venetian economic policy: collective petitions of the Netherlandish merchant community in the early seventeenth century}} & {29-47}\\ 
+&{\small {\it Maartje van Gelder}} & \\ \\ 
+
+&{\normalsize{Bougie, port maghrébin, 1067–1510}} & {49-50}\\ 
+&{\small {\it Claire Judde de Larivière}} & \\ \\ 
+
+&{\normalsize{La culture matérielle médiévale. L'Italie méridionale byzantine et normande}} & {50-52}\\ 
+&{\small {\it Ferdinando Maurici}} & \\ \\ 
+
+&{\normalsize{The image of an Ottoman city: imperial architecture and urban experience in Aleppo in the 16th and 17th centuries}} & {52-54}\\ 
+&{\small {\it Amy Singer}} & \\ \\ 
+
+&{\normalsize{In the service of the Venetian Republic: Massimiliano Buzzaccarini Gonzaga's letters from Malta to Venice's Magistracy of Trade: 1754–1776}} & {54-55}\\ 
+&{\small {\it Molly Greene}} & \\ \\ 
+
+&{\normalsize{Modernism and modernity in the Mediterranean world}} & {55-57}\\ 
+&{\small {\it Thomas S. Harrington}} & \\ \\ 
+
+&{\normalsize{Moderns abroad. Architecture, cities and Italian imperialism}} & {57-62}\\ 
+&{\small {\it Edina Meyer-Maril}} & \\ \\ 
+
+&{\normalsize{Modern Greece: a cultural poetics}} & {62-64}\\ 
+&{\small {\it Rebecca Bryant}} & \\ \\ 
+
+&{\normalsize{A singular antiquity: archaeology and Hellenic identity in twentieth-century Greece}} & {64-69}\\ 
+&{\small {\it Jonathan M. Hall}} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 23}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Meanings behind myths: the multiple manifestations of the Tree of the Virgin at Matarea}} & {101-128}\\ 
+&{\small {\it Stefan Halikowski Smith}} & \\ \\ 
+
+&{\normalsize{Where are Bonaparte's siege cannon? An episode in the Egyptian campaign}} & {129-142}\\ 
+&{\small {\it Deborah Cvikel \& Haim Goren}} & \\ \\ 
+
+&{\normalsize{Greek merchant families perceiving the world: the case of Demetrius Vikelas}} & {143-164}\\ 
+&{\small {\it Ariadni Moutafidou}} & \\ \\ 
+
+&{\normalsize{Fernand Braudel and the Ottomans: the emergence of an involvement (1928–50)}} & {165-184}\\ 
+&{\small {\it Colin Heywood}} & \\ \\ 
+
+&{\normalsize{Book Reviews}} & {185-205}\\ 
+&{\small {\it Amy Singer, David Jacoby, David Jacoby, Alexander Beihammer, Maria Pia Pedani, W.V. Harris, Inbal Ofer \& Silvina Schammah Gesser}} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Relations between the state and the private sphere: speculation and corruption in nineteenth-century Greece}} & {1-14}\\ 
+&{\small {\it Maria Christina Chatziioannou}} & \\ \\ 
+
+&{\normalsize{Russian interests in nineteenth-century Thessaloniki}} & {15-33}\\ 
+&{\small {\it Lucien J. Frary}} & \\ \\ 
+
+&{\normalsize{Cultural aspects of philanthropy: Belle Époque administrators and Jewish peasants in the Galilee}} & {35-51}\\ 
+&{\small {\it Yair Seltenreich}} & \\ \\ 
+
+&{\normalsize{Book Reviews}} & {53-99}\\ 
+&{\small {\it Michel Balard}} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 22}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Commercial Networks in the Mediterranean and the Diffusion of Early Attic Red-figure Pottery (525–490 BCE)}} & {165-182}\\ 
+&{\small {\it Dimitris Paleothodoros}} & \\ \\ 
+
+&{\normalsize{Brotherhoods of Faith and Provident Planning: The Non-public Associations of the Greek World}} & {183-210}\\ 
+&{\small {\it Vincent Gabrielsen}} & \\ \\ 
+
+&{\normalsize{Thessalians Abroad, the Case of Pharsalos}} & {211-236}\\ 
+&{\small {\it Maria Stamatopoulou}} & \\ \\ 
+
+&{\normalsize{Profitable Networks: Coinages, Panegyris and Dionysiac Artists}} & {237-255}\\ 
+&{\small {\it Selene Psoma}} & \\ \\ 
+
+&{\normalsize{On the Road to India with Apollonios of Tyana and Thomas the Apostle}} & {257-271}\\ 
+&{\small {\it Gary Reger}} & \\ \\ 
+
+&{\normalsize{Via Egnatia after Egnatius: Imperial Policy and Inter-regional Contacts}} & {273-293}\\ 
+&{\small {\it Yannis Lolos}} & \\ \\ 
+
+&{\normalsize{Hadrian's Panhellenion: A Network of Cities?}} & {295-308}\\ 
+&{\small {\it Panagiotis N. Doukellis}} & \\ \\ 
+
+&{\normalsize{Merchant Networks in the Greek World: The Impact of Rome}} & {309-320}\\ 
+&{\small {\it Dominic Rathbone}} & \\ \\ 
+
+&{\normalsize{Notes on Contributors}} & {321-323}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Preface: Networks in the Ancient Mediterranean}} & {1-9}\\ 
+&{\small {\it Irad Malkin, Christy Constantakopoulou \& Katerina Panagopoulou}} & \\ \\ 
+
+&{\normalsize{Beyond and Below the Polis: Networks, Associations, and the Writing of Greek History}} & {11-22}\\ 
+&{\small {\it Kostas Vlassopoulos}} & \\ \\ 
+
+&{\normalsize{Network Theory and Theoric Networks}} & {23-37}\\ 
+&{\small {\it Ian Rutherford}} & \\ \\ 
+
+&{\normalsize{Did the Delphic Amphiktiony Play a Political Role in the Classical Period?}} & {39-56}\\ 
+&{\small {\it Simon Hornblower}} & \\ \\ 
+
+&{\normalsize{Pythios and Pythion: The Spread of a Cult Title}} & {57-69}\\ 
+&{\small {\it J.K. Davies}} & \\ \\ 
+
+&{\normalsize{Cults of Demeter Eleusinia and the Transmission of Religious Ideas}} & {71-83}\\ 
+&{\small {\it Hugh Bowden}} & \\ \\ 
+
+&{\normalsize{What Travelled with Greek Pottery?}} & {85-95}\\ 
+&{\small {\it Robin Osborne}} & \\ \\ 
+
+&{\normalsize{Networks of Commerce and Knowledge in the Iron Age: The Case of the Phoenicians}} & {97-111}\\ 
+&{\small {\it Michael Sommer}} & \\ \\ 
+
+&{\normalsize{Networks of Rhodians in Karia}} & {113-132}\\ 
+&{\small {\it Riet van Bremen}} & \\ \\ 
+
+&{\normalsize{Libanius' Social Networks: Understanding the Social Structure of the Later Roman Empire}} & {133-147}\\ 
+&{\small {\it Isabella Sandwell}} & \\ \\ 
+
+&{\normalsize{Network Theory and Religious Innovation}} & {149-162}\\ 
+&{\small {\it Anna Collar}} & \\ \\ 
+
+&{\normalsize{Notes on Contributors}} & {163-164}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 21}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{The Last Multi-Cultural Encounter in Medieval Sicily: A Dominican Scholar, an Arabic Inscription, and a Jewish Legend}} & {159-191}\\ 
+&{\small {\it Nadia Zeldes}} & \\ \\ 
+
+&{\normalsize{Marco Polo, His Close Relatives, and His Travel Account: Some New Insights}} & {193-218}\\ 
+&{\small {\it David Jacoby}} & \\ \\ 
+
+&{\normalsize{Defending the French Revolution during World War II: Raif Khoury and the Intellectual Challenge of Nazism in the Levant}} & {219-238}\\ 
+&{\small {\it Götz Nordbruch}} & \\ \\ 
+
+&{\normalsize{The Mediterranean Option in Israel: An Introduction to the Thought of Jacqueline Kahanoff}} & {239-263}\\ 
+&{\small {\it David Ohana}} & \\ \\ 
+
+&{\normalsize{Book Reviews}} & {265-304}\\ 
+&{\small {\it Ido Israelowich}} & \\ \\ 
+
+&{\normalsize{Publications Received}} & {305-307}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Notes on Contributors}} & {309-310}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Mediaeval Shipbuilding in the Mediterranean and Written Culture at Venice}} & {1-37}\\ 
+&{\small {\it Frederick M. Hocker \& John M. McManamon}} & \\ \\ 
+
+&{\normalsize{Becoming Venetian: Conversion and Transformation in the Seventeenth-Century Mediterranean}} & {39-75}\\ 
+&{\small {\it E. Natalie Rothman}} & \\ \\ 
+
+&{\normalsize{Mediterranean Humanism or Colonialism with a Human Face? Contextualizing Albert Camus’ ‘The New Mediterranean Culture’}} & {77-97}\\ 
+&{\small {\it Neil Foxlee}} & \\ \\ 
+
+&{\normalsize{Posidippus' ShipwrecksTestimonium}} & {99-104}\\ 
+&{\small {\it Margherita Maria Di Nino}} & \\ \\ 
+
+&{\normalsize{Isn't it Good to be Literate?REVIEW ARTICLE}} & {105-114}\\ 
+&{\small {\it Esmail Nashif}} & \\ \\ 
+
+&{\normalsize{Reviews}} & {115-155}\\ 
+&{\small {\it Ze'ev Herzog}} & \\ \\ 
+
+&{\normalsize{Notes on Contributors}} & {157-158}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 20}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Mare clausum? Sailing Seasons in the Mediterranean in Early Antiquity}} & {145-162}\\ 
+&{\small {\it Oded Tammuz}} & \\ \\ 
+
+&{\normalsize{The Map of Cosmas, the Albi Map, and the Tradition of Ancient Geography}} & {163-186}\\ 
+&{\small {\it Maja Kominko}} & \\ \\ 
+
+&{\normalsize{From Calabria Cometh the Law, and the Word of the Lord from Sicily: The Holy Land in the Thought of Joachim of Fiore and Abraham Abulafia}} & {187-199}\\ 
+&{\small {\it Harvey J. Hames}} & \\ \\ 
+
+&{\normalsize{TestimoniumRisky Business: Russian Trade in the Ottoman Empire in the Early Nineteenth Century}} & {201-226}\\ 
+&{\small {\it Theophilus C. Prousis}} & \\ \\ 
+
+&{\normalsize{Diversity Rules: Peregrine Horden and Nicholas Purcell's The Corrupting Sea}} & {227-245}\\ 
+&{\small {\it Gadi Algazi}} & \\ \\ 
+
+&{\normalsize{Reviews}} & {247-288}\\ 
+&{\small {\it Patrick Le Roux}} & \\ \\ 
+
+&{\normalsize{Publications Received}} & {289-291}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Notes on Contributors}} & {293-294}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Proud to Be an Islander: Island Identity in Multi-Polis Islands in the Classical and Hellenistic Aegean}} & {1-34}\\ 
+&{\small {\it Christy Constantakopoulou}} & \\ \\ 
+
+&{\normalsize{A Newsletter in 1419? Antonio Morosini's Chronicle in the Light of Commercial Correspondence between Venice and Alexandria}} & {35-66}\\ 
+&{\small {\it Georg Christ}} & \\ \\ 
+
+&{\normalsize{Engendering ‘Greekness’: Women's Emancipation and Irredentist Politics in Nineteenth-Century Greece}} & {67-79}\\ 
+&{\small {\it Efi Avdela \& Angelika Psarra}} & \\ \\ 
+
+&{\normalsize{The Peculiarities of ‘Spanish Morocco’: Imperial Ideology and Economic Development}} & {81-102}\\ 
+&{\small {\it Geoffrey Jensen}} & \\ \\ 
+
+&{\normalsize{}} & {103-142}\\ 
+&{\small {\it Avshalom Laniado}} & \\ \\ 
+
+&{\normalsize{Notes on Contributors}} & {143-144}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 19}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Editorial Comment}} & {1}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{The Idea of a Mediterranean Region in Nineteenth- to Mid-Twentieth-Century German Geography}} & {2-15}\\ 
+&{\small {\it Yossi Ben-Artzi}} & \\ \\ 
+
+&{\normalsize{The Mediterranean as a Cognitive Map}} & {16-24}\\ 
+&{\small {\it Juval Portugali}} & \\ \\ 
+
+&{\normalsize{Place and Space in the Mediterranean: The (Mental) Map of a Pilgrim in the Holy Land}} & {25-33}\\ 
+&{\small {\it Eitay Mayraz}} & \\ \\ 
+
+&{\normalsize{Restitution and the Definition of a Pirate: The Case of Sologrus de Nigro}} & {34-70}\\ 
+&{\small {\it Emily Sohmer Tai}} & \\ \\ 
+
+&{\normalsize{Book Reviews}} & {71-99}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Publications Received}} & {100-103}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Notes on Contributors}} & {104}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large Special Issue: New Historiographies of the Ottoman Mediterranean World}}} & \\ \\ 
+&{\normalsize{Introduction}} & {1-5}\\ 
+&{\small {\it Amy Singer}} & \\ \\ 
+
+&{\normalsize{Changing Perceptions of the Ottoman Empire: The Early Centuries}} & {6-28}\\ 
+&{\small {\it Leslie Peirce}} & \\ \\ 
+
+&{\normalsize{Rewriting Eighteenth-Century Ottoman History}} & {29-53}\\ 
+&{\small {\it Jane Hathaway}} & \\ \\ 
+
+&{\normalsize{French Studies of the Ottoman Empire's Arab Provinces}} & {54-72}\\ 
+&{\small {\it André Raymond}} & \\ \\ 
+
+&{\normalsize{Back to Napoleon? Thoughts on the Beginning of the Modern Era in the Middle East}} & {73-94}\\ 
+&{\small {\it Dror Ze'evi}} & \\ \\ 
+
+&{\normalsize{Book Reviews}} & {95-124}\\ 
+&{\small {\it Maria Pia Pedani}} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 18}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Introduction}} & {1-8}\\ 
+&{\small {\it Irad Malkin}} & \\ \\ 
+
+&{\normalsize{The Boundless Sea of Unlikeness? On Defining the Mediterranean}} & {9-29}\\ 
+&{\small {\it Nicholas Purcell}} & \\ \\ 
+
+&{\normalsize{Mediterraneanization}} & {30-55}\\ 
+&{\small {\it Ian Morris}} & \\ \\ 
+
+&{\normalsize{Networks and the Emergence of Greek Identity}} & {56-74}\\ 
+&{\small {\it Irad Malkin}} & \\ \\ 
+
+&{\normalsize{Cultures, Landscapes, and Identities in the Mediterranean World}} & {75-92}\\ 
+&{\small {\it Lin Foxhall}} & \\ \\ 
+
+&{\normalsize{A Peculiar Island: Maghrib and Mediterranean}} & {93-125}\\ 
+&{\small {\it D. Shaw Brent}} & \\ \\ 
+
+&{\normalsize{A Sea of Faith?}} & {126-143}\\ 
+&{\small {\it Greg Woolf}} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Cross-cultural Contacts among Mercenary Communities in Saite and Persian Egypt}} & {1-31}\\ 
+&{\small {\it Philip Kaplan}} & \\ \\ 
+
+&{\normalsize{Maltese seafaring in mediaeval and post-mediaeval times}} & {32-58}\\ 
+&{\small {\it John McManamon}} & \\ \\ 
+
+&{\normalsize{Mediterranean humanism}} & {59-75}\\ 
+&{\small {\it David Ohana}} & \\ \\ 
+
+&{\normalsize{The Mediterranean Idea in Syria and Lebanon: between territorial nationalism and Pan-Arabism}} & {76-90}\\ 
+&{\small {\it Eyal Zisser}} & \\ \\ 
+
+&{\normalsize{Book reviews}} & {91-101}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 17}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Cyprus and Ragusa (Dubrovnik) 1280–1450}} & {1-13}\\ 
+&{\small {\it Nicholas Coureas}} & \\ \\ 
+
+&{\normalsize{Ragusa and Ragusan Jews in the Effort to Ransom Captives}} & {14-31}\\ 
+&{\small {\it Moisés Orfali}} & \\ \\ 
+
+&{\normalsize{Between ‘East’ and ‘West’, the Meaning of the Mediterranean in Modern Greece, and Possibly Elsewhere as Well}} & {32-46}\\ 
+&{\small {\it Constantinos Tsoukalas}} & \\ \\ 
+
+&{\normalsize{Spanish Attempts to Rescue Jews from the Holocaust: Lost Opportunities}} & {47-68}\\ 
+&{\small {\it Bernd Rother}} & \\ \\ 
+
+&{\normalsize{Book Reviews}} & {69-88}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Publications Received}} & {89-92}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Notes on Contributors}} & {93}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Index to Volume 17}} & {94-96}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{The Mediterranean Imagination in Contemporary Greek Poets}} & {1-14}\\ 
+&{\small {\it Robert Jouanny}} & \\ \\ 
+
+&{\normalsize{Metaphors for the Mediterranean: Creolization or Polyphony?}} & {15-24}\\ 
+&{\small {\it Thierry Fabre}} & \\ \\ 
+
+&{\normalsize{The Idea of the Mediterranean in Early Nineteenth-Century French Literature}} & {25-48}\\ 
+&{\small {\it David Mendelson}} & \\ \\ 
+
+&{\normalsize{They Shall Dwell by the Haven of the Sea: Israeli Poetry, 1950-60}} & {49-64}\\ 
+&{\small {\it Hannan Hever}} & \\ \\ 
+
+&{\normalsize{Book Reviews}} & {65-83}\\ 
+&{\small {\it Avshalom Laniado Book Reviews Editor}} & \\ \\ 
+
+&{\normalsize{End Matter}} & {84-86}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{End Matter}} & {87}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{End Matter}} & {88-90}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 16}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{The Bailo in Constantinople: Crisis and Career in Venice's Early Modern Diplomatic Corps}} & {1-30}\\ 
+&{\small {\it Eric R. Dursteler}} & \\ \\ 
+
+&{\normalsize{Criminal Anthropology and Anarchist Terrorism in Spain and Italy}} & {31-44}\\ 
+&{\small {\it Richard   Bach Jensen}} & \\ \\ 
+
+&{\normalsize{The Mediterranean Policy of Franco's Spain}} & {45-68}\\ 
+&{\small {\it Rosa   Pardo Sanz}} & \\ \\ 
+
+&{\normalsize{TESTIMONIUM - Geoffrey Chaucer's 'Lyne Oriental': Mediterranean and Oriental Languages in the Treatise on the Astrolabe}} & {69-77}\\ 
+&{\small {\it Gila Aloni \& Shirley Sharon-Zisser}} & \\ \\ 
+
+&{\normalsize{Book Reviews}} & {78-94}\\ 
+&{\small {\it Avshalom Laniado Book Reviews Editor}} & \\ \\ 
+
+&{\normalsize{Books Received}} & {95-99}\\ 
+&{\small {\it Avshalom Laniado Book Reviews Editor}} & \\ \\ 
+
+&{\normalsize{End Matter}} & {100-108}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Historians and the Present Conjuncture}} & {1-12}\\ 
+&{\small {\it François Hartog \& Jacques Revel}} & \\ \\ 
+
+&{\normalsize{Towards an Ethnographic Phenomenology of the Greek Spirit}} & {13-26}\\ 
+&{\small {\it Michael Herzfeld}} & \\ \\ 
+
+&{\normalsize{The Construction of National Time: The Making of the Modern Greek Historical Imagination}} & {27-42}\\ 
+&{\small {\it Antonis Liakos}} & \\ \\ 
+
+&{\normalsize{Shifting Boundaries, Clientalism and Balkan Identities}} & {43-48}\\ 
+&{\small {\it Drago Roksandič}} & \\ \\ 
+
+&{\normalsize{Notes on Two Discordant Histories: Armenia during World War I}} & {49-60}\\ 
+&{\small {\it Lucette Valensi}} & \\ \\ 
+
+&{\normalsize{The Distant Past: On the Political Use of History}} & {61-73}\\ 
+&{\small {\it Giovanni Levi}} & \\ \\ 
+
+&{\normalsize{The Two Levels of Public Use of the Past}} & {74-86}\\ 
+&{\small {\it Claudio Pavone}} & \\ \\ 
+
+&{\normalsize{Out of Place, Out of Time}} & {87-94}\\ 
+&{\small {\it Elias Sanbar}} & \\ \\ 
+
+&{\normalsize{Political Uses of History in Spain}} & {95-116}\\ 
+&{\small {\it Pedro-Ruiz Torres}} & \\ \\ 
+
+&{\normalsize{End Matter}} & {117-120}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 15}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Greek colonization and the eponymous apollo}} & {1-26}\\ 
+&{\small {\it Ilan Shachar}} & \\ \\ 
+
+&{\normalsize{A mediterranean pantheon: Cults and deities in hellenistic and roman Ashkelon}} & {27-48}\\ 
+&{\small {\it Gideon Fuks}} & \\ \\ 
+
+&{\normalsize{Crusading warfare and its adaptation to eastern conditions in the twelfth century}} & {49-66}\\ 
+&{\small {\it John France}} & \\ \\ 
+
+&{\normalsize{The Doge and the Podestà: The executive and the judiciary in late fourteenth‐century Genoa}} & {67-90}\\ 
+&{\small {\it Emanuel Wardi}} & \\ \\ 
+
+&{\normalsize{A garment of one's own: Eugenia Fakinou's Re‐Imagining of the greek past}} & {91-110}\\ 
+&{\small {\it Georgia Gotsi}} & \\ \\ 
+
+&{\normalsize{Ad piraticam exercendam : Two ‘piratical’ contracts from early sixteenth‐century sicily}} & {111-116}\\ 
+&{\small {\it Nadia Zeldes}} & \\ \\ 
+
+&{\normalsize{Book Reviews}} & {117-131}\\ 
+&{\small {\it Avshalom Laniado, Yitzhak Hen, Nadia Zeldes, Raanan Rein \& Ilan Pappe}} & \\ \\ 
+
+&{\normalsize{Publications received}} & {132-135}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{List of contributors}} & {136-137}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large Special Issue: Seafaring and the Jews}}} & \\ \\ 
+&{\normalsize{Introduction}} & {1-4}\\ 
+&{\small {\it Nadav Kashtan}} & \\ \\ 
+
+&{\normalsize{Abstracts}} & {5-7}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Hebrew seafaring in the biblical period}} & {5-15}\\ 
+&{\small {\it Robert R. Stieglitz}} & \\ \\ 
+
+&{\normalsize{Seafaring and Jews in Graeco‐Roman Palestine: Realistic and symbolic dimensions}} & {16-28}\\ 
+&{\small {\it Nadav Kashtan}} & \\ \\ 
+
+&{\normalsize{Nautica in Talmudic Palestine}} & {29-32}\\ 
+&{\small {\it Daniel Sperber}} & \\ \\ 
+
+&{\normalsize{Medieval Jewish seafaring between East and West}} & {33-46}\\ 
+&{\small {\it Sarah Arenson}} & \\ \\ 
+
+&{\normalsize{Salvage in the Eleventh and Twelfth‐century mediterranean: Geniza evidence and its legal implications}} & {47-55}\\ 
+&{\small {\it Hassan S. Khalilieh}} & \\ \\ 
+
+&{\normalsize{Shipping and toleration: The emergence of Jewish shipowners in the early modern period}} & {56-71}\\ 
+&{\small {\it Benjamin Arbel}} & \\ \\ 
+
+&{\normalsize{Boatmen's and fishermen's guilds in Nineteenth‐century Istanbul}} & {72-93}\\ 
+&{\small {\it Minna Rozen}} & \\ \\ 
+
+&{\normalsize{The contribution of Jewish‐German immigrants to maritime development in Israel}} & {94-101}\\ 
+&{\small {\it Daniela Ran}} & \\ \\ 
+
+&{\normalsize{Notes on contributors}} & {102-103}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 14}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{The Greek exodus to Cyprus: The antiquity of Hellenism}} & {1-28}\\ 
+&{\small {\it Maria Iacovou}} & \\ \\ 
+
+&{\normalsize{Wars and rumours of wars: England and the Byzantine world in the eighth and ninth centuries}} & {29-46}\\ 
+&{\small {\it Jonathan Harris}} & \\ \\ 
+
+&{\normalsize{Ifrîqiyan muslim merchants in the Mediterranean at the end of the middle ages}} & {47-66}\\ 
+&{\small {\it Dominique Valérian}} & \\ \\ 
+
+&{\normalsize{The account books of the Spanish inquisition in Sicily (1500–1550) as a source for the study of material culture in a Mediterranean country}} & {67-94}\\ 
+&{\small {\it Nadia Zeldes}} & \\ \\ 
+
+&{\normalsize{Book reviews}} & {95-115}\\ 
+&{\small {\it Jan   Paul Crielaard, Nicholas Coureas, Avshalom Laniado, Elena Lourie, Alisa   Meyuhas Ginio, Iris Agmon, Asher Susser \& Richard Gillespie}} & \\ \\ 
+
+&{\normalsize{Publications received}} & {116-121}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{List of contributors}} & {122}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{From the mediterranean to universality? The myth of alexander, yesterday and today}} & {1-17}\\ 
+&{\small {\it François de Polignac}} & \\ \\ 
+
+&{\normalsize{Carthaginian parties during the Punic Wars}} & {18-30}\\ 
+&{\small {\it Linda‐Marie Günther}} & \\ \\ 
+
+&{\normalsize{Colonization and the creation of hospitals: The eastern extension of western hospitality in the eleventh and twelfth centuries}} & {31-43}\\ 
+&{\small {\it Monique Amouroux}} & \\ \\ 
+
+&{\normalsize{Bridget of Sweden, margery kempe and women's Jerusalem pilgrimages in the middle ages}} & {44-58}\\ 
+&{\small {\it Sylvia Schein}} & \\ \\ 
+
+&{\normalsize{The legal opinion of Maliki Jurists regarding Andalusian muslim pilgrims travelling by sea during the eleventh and twelfth centuries ce}} & {59-69}\\ 
+&{\small {\it Hassan S. Khalilieh}} & \\ \\ 
+
+&{\normalsize{Book reviews}} & {70-83}\\ 
+&{\small {\it David J. Wasserstein, Benjamin Arbel, Avshalom Laniado, Amy Singer, M. Frejdenberg \& Ursula Woköck}} & \\ \\ 
+
+&{\normalsize{List of contributors}} & {84-85}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 13}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 1-2}} & {\textit{\textbf{\large Special Issue: Spain and the Mediterranean since 1898}}} & \\ \\ 
+&{\normalsize{Introduction}} & {1-6}\\ 
+&{\small {\it Raanan Rein}} & \\ \\ 
+
+&{\normalsize{Spain on the threshold of a new century: Society and politics before and after the disaster of 1898}} & {7-27}\\ 
+&{\small {\it Octavio Ruiz}} & \\ \\ 
+
+&{\normalsize{Between Europe and the Mediterranean: Spanish‐Italian relations, 1898–1922}} & {28-47}\\ 
+&{\small {\it Fernando   García Sanz}} & \\ \\ 
+
+&{\normalsize{Spanish colonialism during primo de Rivera's dictatorship}} & {48-64}\\ 
+&{\small {\it Susana   Sueiro Seoane}} & \\ \\ 
+
+&{\normalsize{The Mediterranean in the foreign policy of the second Spanish republic}} & {65-79}\\ 
+&{\small {\it Nuria   Tabanera García}} & \\ \\ 
+
+&{\normalsize{Spanish morocco and the second republic: Consistency in colonial policy?}} & {80-98}\\ 
+&{\small {\it Shannon E. Fleming}} & \\ \\ 
+
+&{\normalsize{Fascist Italy and Spain, 1922–45}} & {99-115}\\ 
+&{\small {\it Stanley G. Payne}} & \\ \\ 
+
+&{\normalsize{Fascism and empire: Fascist Italy against republican Spain}} & {116-134}\\ 
+&{\small {\it Ismael Saz}} & \\ \\ 
+
+&{\normalsize{The international policy of the second republic during the Spanish civil war}} & {135-149}\\ 
+&{\small {\it Ricardo Miralles}} & \\ \\ 
+
+&{\normalsize{The Spanish civil war and the Mediterranean}} & {150-167}\\ 
+&{\small {\it Michael Alpert}} & \\ \\ 
+
+&{\normalsize{Franco's bid for empire: Spain, Germany, and the western Mediterranean in World War II}} & {168-194}\\ 
+&{\small {\it Norman J.W. Goda}} & \\ \\ 
+
+&{\normalsize{In pursuit of votes and economic treaties: Francoist Spain and the Arab world, 1945–56}} & {195-215}\\ 
+&{\small {\it Raanan Rein}} & \\ \\ 
+
+&{\normalsize{Spain's input in shaping the EU's Mediterranean policies, 1986–96}} & {216-234}\\ 
+&{\small {\it Alfred Tovias}} & \\ \\ 
+
+&{\normalsize{Spanish foreign and security policy in the Mediterranean}} & {235-247}\\ 
+&{\small {\it Antonio Marquina}} & \\ \\ 
+
+&{\normalsize{List of contributors}} & {248-250}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 12}}& \\ 
+\hline \\ 
+{\textsc{\large Issue 2}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Classical mathematics in the classical Mediterranean}} & {1-24}\\ 
+&{\small {\it Reviel Netz}} & \\ \\ 
+
+&{\normalsize{List of contributors}} & {5}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{‘Sinful sons, falsifiers of the Christian faith’: The depiction of Muslims in a ‘crusader’ manuscript}} & {25-50}\\ 
+&{\small {\it Barbara Zeitler}} & \\ \\ 
+
+&{\normalsize{From the language of Adam to the pluralism of Babel}} & {51-59}\\ 
+&{\small {\it Maurice Olender}} & \\ \\ 
+
+&{\normalsize{Revolutionizing the past: Historical representation during Egypt's revolutionary experience, 1952–62}} & {60-77}\\ 
+&{\small {\it Yoram Meital}} & \\ \\ 
+
+&{\normalsize{Book reviews}} & {78-89}\\ 
+&{\small {\it David Jacoby, Gadi Algazi, Raphael Vago \& Moshe Fischer}} & \\ \\ 
+
+&{\normalsize{Publications received}} & {90-92}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+{\textsc{\large Issue 1}} & {\textit{\textbf{\large }}} & \\ \\ 
+&{\normalsize{Were the cilicians a nation of pirates?}} & {5-55}\\ 
+&{\small {\it A. Avidov}} & \\ \\ 
+
+&{\normalsize{Priests, soldiers, and administrators: Society and institutions in the Byzantine Negev}} & {56-74}\\ 
+&{\small {\it Rehav Rubin}} & \\ \\ 
+
+&{\normalsize{The military role of the Frankish Turcopoles: A reassessment}} & {75-116}\\ 
+&{\small {\it Yuval Harari}} & \\ \\ 
+
+&{\normalsize{Book reviews}} & {117-138}\\ 
+&{\small {\it Peter Sarris, Reuven Amitai‐Preiss, Alessandra Veronese, Ron Barkai, Bruno Figliuolo, Alberto Tenenti \& Alexander Grab}} & \\ \\ 
+
+&{\normalsize{List of contributors}} & {139}\\ 
+&{\small {\it }} & \\ \\ 
+
+&{\normalsize{Editorial board}} & {ebi}\\ 
+&{\small {\it }} & \\ \\ 
+
+\multicolumn{2}{l}{\textbf {\Large Volume 11}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 10}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 9}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 8}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 7}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 6}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 5}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 4}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 3}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 2}}& \\ 
+\hline \\ 
+\multicolumn{2}{l}{\textbf {\Large Volume 1}}& \\ 
+\hline \\ 
+
+		\end{longtabu} 
+
+		\end{center} 
+
+		
+
+		\end{document} 
+
+		
